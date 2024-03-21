@@ -1,7 +1,6 @@
 const { app, HttpResponse } = require('@azure/functions');
 const fs = require('fs');
-const { createReadStream } = require('fs') 
-const OpenAI = require('openai');
+const { createReadStream } = require('fs');
 const { Transform, Readable } = require('stream');
 const { ReadableStream } = require('web-streams-polyfill');
 
